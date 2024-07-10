@@ -30,7 +30,7 @@ public class SelectionSort
         System.out.println();
     }
 
-    // Driver code to test above
+
     public static void main(String args[])
     {
         SelectionSort ob = new SelectionSort();
