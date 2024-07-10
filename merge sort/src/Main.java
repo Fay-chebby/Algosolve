@@ -66,12 +66,10 @@ class MergeSort {
             sort(arr, l, m);
             sort(arr, m + 1, r);
 
-            // Merge the sorted halves
+
             merge(arr, l, m, r);
         }
     }
-
-    // A utility function to print array of size n
     static void printArray(int arr[])
     {
         int n = arr.length;
@@ -80,7 +78,6 @@ class MergeSort {
         System.out.println();
     }
 
-    // Driver code
     public static void main(String args[])
     {
         int arr[] = { 32, 22, 41, 8, 12, 2 };
