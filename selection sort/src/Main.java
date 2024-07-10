@@ -1,4 +1,4 @@
-public class SelectionSort
+ class SelectionSort
 {
     void sort(int arr[])
     {
