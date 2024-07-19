@@ -4,7 +4,7 @@ import java.util.List;
 
 public class KruskalsMST {
 
-    // Defines edge structure
+    // Defines edge structure of the algo
     static class Edge {
         int src, dest, weight;
 
